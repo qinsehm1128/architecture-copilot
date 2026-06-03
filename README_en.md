@@ -96,7 +96,7 @@ The two repos are a pair:
 
 | | Repo | Role |
 |---|---|---|
-| 📚 | **[awesome-architecture](https://github.com/study8677/awesome-architecture)** | **Knowledge**: 8-chapter tutorial on architectural thinking + 21 architecture maps of real systems (architecture only, no syntax). |
+| 📚 | **[awesome-architecture](https://github.com/study8677/awesome-architecture)** | **Knowledge**: 26-chapter tutorial on architectural thinking + 25 templates / architecture maps (architecture only, no syntax). |
 | 🧭 | **architecture-copilot** (this repo) | **Capability**: turns that knowledge into a skill that **actively guides you** inside Claude Code / Cursor / Codex. |
 
 > One is the textbook; the other is the tutor that asks the questions. While guiding you, the Copilot cites the matching template and methodology from the former (building e-commerce? it pulls out the [e-commerce template](https://github.com/study8677/awesome-architecture/blob/main/templates/ecommerce-platform/README.md)'s key decisions to interrogate you).
@@ -105,7 +105,7 @@ The two repos are a pair:
 
 ## 🤝 Contributing
 
-Add key-decision prompts for more system types, improve the guiding script, or translate. Edit [`SKILL.md`](skills/architecture-copilot/SKILL.md) (the source of truth), then sync to `.mdc` and `AGENTS.md`.
+Add key-decision prompts for more system types, improve the guiding script, or translate. Edit [`skills/architecture-copilot/SKILL.md`](skills/architecture-copilot/SKILL.md) first (the source of truth), then sync `.cursor/rules/architecture-copilot.mdc` and `AGENTS.md`; if tutorial/template counts change, also sync `README.md`, `README_en.md`, and `INSTALL.md`.
 
 ---
 

@@ -91,7 +91,7 @@ AI 已经能替你写绝大部分代码。但有件事它不会主动替你做,�
 
 | | 仓库 | 角色 |
 |---|---|---|
-| 📚 | **[awesome-architecture](https://github.com/study8677/awesome-architecture)** | **知识**:8 章架构思维教程 + 21 张真实系统架构地图(只讲架构、不讲语法)。还有一个[可交互教学站](https://github.com/study8677/awesome-architecture)。 |
+| 📚 | **[awesome-architecture](https://github.com/study8677/awesome-architecture)** | **知识**:26 章架构思维教程 + 25 个模板/架构地图(只讲架构、不讲语法)。还有一个[可交互教学站](https://github.com/study8677/awesome-architecture)。 |
 | 🧭 | **architecture-copilot**(本仓库) | **能力**:把上面那套知识,变成一个能在 Claude Code/Cursor/Codex 里**主动引导你**的 skill。 |
 
 > 一个是「教材」,一个是「会提问的私教」。副驾在引导你时,会引用前者里对应的模板和方法论(比如你做电商,它就搬出 [电商平台模板](https://github.com/study8677/awesome-architecture/blob/main/templates/ecommerce-platform/README.md) 的关键决策来追问你)。
@@ -100,7 +100,7 @@ AI 已经能替你写绝大部分代码。但有件事它不会主动替你做,�
 
 ## 🤝 贡献
 
-欢迎补充更多系统类型的「关键决策追问」、改进引导话术、或翻译。改 [`SKILL.md`](skills/architecture-copilot/SKILL.md)(权威版),再同步到 `.mdc` 和 `AGENTS.md` 即可。
+欢迎补充更多系统类型的「关键决策追问」、改进引导话术、或翻译。先改 [`skills/architecture-copilot/SKILL.md`](skills/architecture-copilot/SKILL.md)(权威版),再同步 `.cursor/rules/architecture-copilot.mdc` 与 `AGENTS.md`;如果涉及教程/模板数量,也同步 `README.md`、`README_en.md`、`INSTALL.md`。
 
 ---
 
