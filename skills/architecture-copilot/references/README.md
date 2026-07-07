@@ -23,6 +23,13 @@
 | `agent-and-org.md` | claude-code、codex、openclaw、hermes、system-prompt-architecture、ai-native-organization |
 | `embedded-industrial.md` | embedded-device、iot-platform、industrial-edge、automotive-ee、robotics |
 
+另有两份**跨模板通用**的稳定切片(来自上游 `tutorial/`,非某个模板专属):
+
+| 文件 | 用途 |
+|---|---|
+| `signals.md` | 「什么信号 → 该升级什么」量化对照表,阶段 5 演进追问 / 阶段 7 反挑战引用 |
+| `glossary.md` | 核心架构术语速查,用户卡在概念时对齐 |
+
 ## 漂移策略(维护者必读)
 
 - 本目录是上游 [awesome-architecture](https://github.com/study8677/awesome-architecture) `templates/` 的**裁剪快照**,
